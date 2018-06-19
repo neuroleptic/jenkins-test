@@ -10,5 +10,33 @@
   <servlet-mapping>
     <servlet-name>TestServlet</servlet-name>
     <url-pattern>/TestServlet</url-pattern>
-</servlet-mapping>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>HelloWorld</servlet-name>
+		<servlet-class>com.revature.servlets.HelloWorldServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>WhateverServletNameWeWant</servlet-name>
+		<servlet-class>com.revature.servlets.CalculatorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WhateverServletNameWeWant</servlet-name>
+		<url-pattern>/calculator</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AnswerServlet</servlet-name>
+		<servlet-class>com.revature.servlets.AnswerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AnswerServlet</servlet-name>
+		<url-pattern>/answer</url-pattern>
+	</servlet-mapping>
+
 </web-app>
